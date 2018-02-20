@@ -1,7 +1,12 @@
 # dotfiles
 
 Collection of dotfiles for system configuration
-To install clone directory and then run via:
+To install clone directory: 
+```bash
+git clone git@github.com:freightrunner/dotfiles.git
+```
+
+and then run via:
 ```bash
 chmod +x makesymlinks.sh
 ./makesymlinks.sh
