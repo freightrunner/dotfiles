@@ -1,6 +1,8 @@
 # dotfiles
 
 Collection of dotfiles for system configuration
-To install just clone to ~/dotfiles and run:
+To install clone directory and then run via:
+```bash
 chmod +x makesymlinks.sh
 ./makesymlinks.sh
+```
