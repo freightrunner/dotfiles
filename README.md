@@ -10,8 +10,11 @@ chmod +x makesymlinks.sh
 ---
 ### Files so far
 * Taskrc
+
   RC file for Taskwarrior
 * Vimrc
+
   RC file for vim
 * Zshrc
+
   RC file for zshell
