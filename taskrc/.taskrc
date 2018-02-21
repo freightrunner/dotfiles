@@ -39,3 +39,4 @@ taskd.trust=ignore hostname
 
 #Color Configurations
 color.tag.oohlala=rgb015
+color.tag.honeydo=rgb505
