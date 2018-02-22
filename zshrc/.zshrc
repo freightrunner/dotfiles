@@ -74,6 +74,9 @@ alias bastiondev2="ssh -i ~/Documents/dev-env.pem ubuntu@54.234.220.85"
 alias bastionstg="ssh -i ~/Documents/stg-env.pem ubuntu@54.89.157.112"
 alias bastionprod="ssh -i ~/Documents/prod-env.pem ubuntu@52.87.189.208"
 
+#Alias for Taskwarrior Time Tracking
+alias ttime="~/tasktime/tasktime.py"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 

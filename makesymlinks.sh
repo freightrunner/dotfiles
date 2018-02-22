@@ -25,3 +25,14 @@ for file in $files; do
   echo "Creating symlink to $file in home directory"
   ln -s $dir/$file ~/.$file
 done
+
+install_tasktime() {
+if [ ! -d ~/tasktime/ ]; then
+  echo "TaskTime directory not found, cloning from repo"
+  git clone git@github.com:svenhertle/tasktime.git
+else
+  echo "TaskTime is already installed"
+fi
+}
+
+install_tasktime

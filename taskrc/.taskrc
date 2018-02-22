@@ -37,6 +37,9 @@ taskd.server=taskwarrior.inthe.am:53589
 taskd.credentials=inthe_am/arpaio/7810234d-d486-43b2-96dd-794016022b28
 taskd.trust=ignore hostname
 
+#For TaskTime Program
+journal.time=on
+
 #Color Configurations
 color.project.Oohlala=rgb115
 color.tag.honeydo=rgb505
@@ -54,3 +57,6 @@ dateformat=MDy.HN
 #Contexts
 context.work=+work -home
 context.ooh=+oohlala or project:Oohlala
+
+#Fix for not showing all annotations under description when using TaskTime
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
