@@ -40,12 +40,12 @@ taskd.trust=ignore hostname
 #Color Configurations
 color.tag.oohlala=rgb015
 color.tag.honeydo=rgb505
+color.active=rgb555 on rgb004
+color.blocking=black on gray20
+color.due=rgb055
 
 #Aliases
 alias.w=+work
 
 #Time Formatting
 dateformat=MDy.HN
-color.active=rgb555 on rgb004
-color.blocking=black on gray20
-color.due=rgb055
