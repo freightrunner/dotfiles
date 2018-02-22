@@ -38,7 +38,7 @@ taskd.credentials=inthe_am/arpaio/7810234d-d486-43b2-96dd-794016022b28
 taskd.trust=ignore hostname
 
 #Color Configurations
-color.tag.oohlala=rgb015
+color.project.Oohlala=rgb115
 color.tag.honeydo=rgb505
 color.active=rgb555 on rgb004
 color.blocking=black on gray20
@@ -46,6 +46,11 @@ color.due=rgb055
 
 #Aliases
 alias.w=+work
+alias.ooh=+oohlala
 
 #Time Formatting
 dateformat=MDy.HN
+
+#Contexts
+context.work=+work -home
+context.ooh=+oohlala or project:Oohlala
