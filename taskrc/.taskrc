@@ -56,7 +56,8 @@ dateformat=MDy.HN
 
 #Contexts
 context.work=+work -home
-context.ooh=+oohlala or project:Oohlala
+context.oohlala=+oohlala or project:Oohlala
+context.ooo=-work
 
 #Fix for not showing all annotations under description when using TaskTime
 report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
