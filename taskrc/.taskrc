@@ -40,12 +40,14 @@ taskd.trust=ignore hostname
 #For TaskTime Program
 journal.time=on
 
+due=3
+
 #Color Configurations
 color.project.Oohlala=rgb115
 color.tag.honeydo=rgb505
 color.active=rgb555 on rgb004
-color.blocking=black on gray20
-color.due=rgb055
+color.blocking=black on gray13
+color.due=rgb053
 
 #Aliases
 alias.w=+work
