@@ -49,7 +49,7 @@ color.tag.honeydo=rgb505
 color.active=rgb555 on rgb004
 color.blocking=rgb000 on gray13
 color.due=rgb053
-color.tag.do=rgb520
+color.tag.do=rgb000 on bright yellow
 
 #Aliases
 alias.w=+work
@@ -65,4 +65,7 @@ context.ooo=-work or +do
 
 #Fix for not showing all annotations under description when using TaskTime
 report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
+
+#Custom Ugency Coefficient
+urgency.user.tag.do.coefficient=8
 context=work
