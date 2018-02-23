@@ -29,7 +29,7 @@ done
 install_tasktime() {
 if [ ! -d ~/tasktime/ ]; then
   echo "TaskTime directory not found, cloning from repo"
-  git clone git@github.com:svenhertle/tasktime.git
+  git clone git@github.com:svenhertle/tasktime.git ~/tasktime
 else
   echo "TaskTime is already installed"
 fi
