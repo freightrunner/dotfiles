@@ -44,7 +44,6 @@ journal.time=on
 due=3
 
 #Color Configurations
-color.project.Oohlala=rgb115
 color.tag.honeydo=rgb505
 color.active=rgb555 on rgb004
 color.blocking=rgb000 on gray13
@@ -60,7 +59,7 @@ dateformat=MDy.HN
 
 #Contexts
 context.work=+work or +do
-context.oohlala=+oohlala or project:Oohlala
+context.oohlala=project:Oohlala or +do
 context.ooo=-work or +do
 
 #Fix for not showing all annotations under description when using TaskTime
@@ -69,4 +68,3 @@ report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,s
 #Custom Urgency Coefficient
 urgency.user.tag.do.coefficient=8
 
-context=work
