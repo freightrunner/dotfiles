@@ -40,14 +40,16 @@ taskd.trust=ignore hostname
 #For TaskTime Program
 journal.time=on
 
+#Adjusted due date range for color puposes
 due=3
 
 #Color Configurations
 color.project.Oohlala=rgb115
 color.tag.honeydo=rgb505
 color.active=rgb555 on rgb004
-color.blocking=black on gray13
+color.blocking=rgb000 on gray13
 color.due=rgb053
+color.tag.do=rgb520
 
 #Aliases
 alias.w=+work
