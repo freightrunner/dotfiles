@@ -55,9 +55,10 @@ alias.ooh=+oohlala
 dateformat=MDy.HN
 
 #Contexts
-context.work=+work -home
+context.work=+work or +do
 context.oohlala=+oohlala or project:Oohlala
-context.ooo=-work
+context.ooo=-work or +do
 
 #Fix for not showing all annotations under description when using TaskTime
 report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
+context=work
