@@ -66,6 +66,7 @@ context.ooo=-work or +do
 #Fix for not showing all annotations under description when using TaskTime
 report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
 
-#Custom Ugency Coefficient
+#Custom Urgency Coefficient
 urgency.user.tag.do.coefficient=8
+
 context=work
