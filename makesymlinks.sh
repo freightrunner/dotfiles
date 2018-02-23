@@ -23,7 +23,7 @@ for file in $files; do
   echo "Moving and existing dotfiles from ~ to $olddir"
   mv ~/.$file ~/dotfiles_old/
   echo "Creating symlink to $file in home directory"
-  ln -s $dir/$file ~/.$file
+  ln -s $dir/$file/.$file ~/.$file
 done
 
 install_tasktime() {
