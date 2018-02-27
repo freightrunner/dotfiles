@@ -68,4 +68,3 @@ report.next.columns=id,start.age,entry.age,depends.count,priority,project,tags,r
 #Custom Urgency Coefficient
 urgency.user.tag.do.coefficient=8
 
-context=work
